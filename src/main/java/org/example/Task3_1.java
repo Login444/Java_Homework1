@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.Scanner;
 
+/**
+ * Реализовать простой калькулятор
+ */
 public class Task3_1 {
     public static void main(String[] args) {
         double a;
