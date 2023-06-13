@@ -17,10 +17,16 @@ public class Task1 {
                 }
             }
         }
+        scan.close();
         System.out.println("sum = " + sum);
 
     }
 
+    /**
+     * @apiNote проверка простое ли число
+     * @param n
+     * @return true or false
+     */
     private static boolean naturalNumber(int n) {
         boolean a = false;
         int count = 0;
